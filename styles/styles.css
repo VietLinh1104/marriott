@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* body */
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #F4F4F4;
+}
+
+/* Font */
+.font-family-mont{
+    font-family: "Montserrat", sans-serif;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+
+.fs-64 {
+    font-size: 64px;
+}
+
+.font-thin {
+    font-weight: 100;
+}
+
+.font-thin-italic {
+    font-weight: 100;
+    font-style: italic;
+}
+
+.font-extralight {
+    font-weight: 200;
+}
+
+.font-extralight-italic {
+    font-weight: 200;
+    font-style: italic;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font-light-italic {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.font-regular {
+    font-weight: 400;
+}
+
+.font-regular-italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-medium-italic {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-semibold-italic {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-bold-italic {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.font-extrabold {
+    font-weight: 800;
+}
+
+.font-extrabold-italic {
+    font-weight: 800;
+    font-style: italic;
+}
+
+.font-black {
+    font-weight: 900;
+}
+
+.font-black-italic {
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* color */
+.text-gray{
+    color:#707070;
+}
+
+.text-white-trans{
+    color: rgba(255, 255, 255, 0.732);
+}
+
+.text-white-trans:hover a{
+    color: rgba(255, 255, 255, 0.391);
+}
+
+.border-white-trans{
+    border-color: rgba(230, 32, 32, 0.7);
+}
+
+.bg-gray{
+    background-color: #707070;
+}
+
+
+/* custom */
+.logo-size-1{
+    width: 133px !important;
+}
+
+.logo-size-2{
+    width: 94px !important;
+}
+
+.place-holder-n{
+    padding: 52.42px;
+}
+
+.place-holder-1{
+    padding: 71.18px;
+}
+
+.m-holder{
+    margin-top: 43.94px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Tùy chỉnh khoảng cách giữa dropdown và menu */
+}
+
+.bg-transparent-white {
+    background-color: rgba(255, 255, 255, 0.898);
+}
+
+
+.card {
+    width: 280px;
+    overflow: hidden;
+    border-radius: 18px;
+    border: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-img-top{
+    height: 152px;
+}
+
+.non-shadow{
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0); 
+}
+
+
+ul {
+    list-style-type: none; /* Đặt kiểu đánh số là số thập phân */
+    padding: 0; /* Xóa padding mặc định của danh sách */
+    margin: 0; /* Xóa margin mặc định của danh sách */
+
+    
+}
+li {
+    margin-bottom: 5px; /* Khoảng cách giữa các mục trong danh sách */
+    padding-left: 10px;
+}
+
+.menu:hover  {
+    border-bottom: 2px solid #050505; 
+}
+
+.menu  {
+    border-bottom: 2px solid #ffffff; 
+}
+
+.menu-tab.active  {
+    border-bottom: 2px solid #050505; 
+}
+
+.menu-tab  {
+    border-bottom: 2px solid #ffffff; 
+}
+.sidebar-border-right{
+    
+    border-right: 1px solid #0000002f;
+    
+}
+
+
+a {
+    color:#050505;
+    text-decoration: none; /* Bỏ gạch chân cho các liên kết */
+}
+
+.navbar{
+    border-top: 6px solid #050505;
+}
+
+.navbar-brand{
+    background-color: #050505;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: white;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.725), rgba(0, 0, 0, 0.399), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    
+}
+
+.text-overlay-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: white;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.725), rgba(0, 0, 0, 0.641), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    
+}
+
+.outline-square {
+    border-radius: 0;
+    border-width: 0px !important;
+}
+
+.btn-outline-square {
+    border-radius: 0; /* Không bo góc */
+    border-width: 2px !important;
+}
+
+.btn-find-room{
+    background-color: rgb(68, 64, 84);
+    color: white;
+}
+
+.btn-find-room:hover {
+    background-color: rgba(68, 64, 84, 0.856);
+    color: white;
+}
+
+.btn-find-room:active {
+    background-color: rgba(68, 64, 84, 0.829) !important;
+    color: white !important;
+    border: 3px solid  rgba(68, 64, 84, 0.829) !important;
+}
+
+.text-banner {
+    margin-top: 15%;
+    margin-left: 100px;
+    width:500px;
+}
+
+.border-thick {
+    border-width: 2px !important; /* Độ dày viền */
+}
+
+.card-lg{
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.text-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.352);
+    margin-top: 34%;
+    margin-left: 28px;
+}
+
+.bg-dark{
+    background-color: #050505 !important;
+}
+
+/* form */
+.item-card{
+    background-color: #ffffff;
+    padding: 0;
+    display: flex;
+
+
+}
+
+.item-card .img-container {
+    width: 280px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.item-card .body-container {
+    margin: 20px;
+}
+
+.img-table{
+    width: 50px;
+}

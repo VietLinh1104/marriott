@@ -1,0 +1,11 @@
+CREATE TABLE produce(
+    id VARCHAR(255) PRIMARY KEY,
+    modelName VARCHAR(255),
+    brandName VARCHAR(255),
+    city VARCHAR(255),
+    price INT,
+    roomType VARCHAR(255),
+    imgPath VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+)
